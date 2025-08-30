@@ -1,0 +1,7 @@
+    nav {
+      background-color: #006699; 
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
