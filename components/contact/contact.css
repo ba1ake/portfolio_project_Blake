@@ -1,7 +1,7 @@
 body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #003366; 
+      background-color: #121212; 
       color: white;
       display: flex;
       flex-direction: column;
@@ -9,32 +9,35 @@ body {
       position: relative;
       overflow-x: hidden;
       text-align: center;
-}
+    }
 
+    main {
+        flex: 1; 
+}
     nav {
-      background-color: #006699; 
       padding: 15px;
       display: flex;
       justify-content: center;
       gap: 20px;
-}
+    }
 
     nav a {
-      color: white;
+      color: #00ADB5;
       text-decoration: none;
       font-weight: bold;
-}
+    }
 
     nav a:hover {
-      text-decoration: underline;
-}
+      color: #FF5722;
+
+    }
 
 /* put page spefic content here before footer */
 
 input[type=text] {
   width: 50%;
   padding: 20px;
-  border: 1px solid #006699;
+  border: 1px solid #1E1E2F;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -43,12 +46,12 @@ input[type=text] {
 
 }
 .contact-form {
-  border: 2px solid gray;       /* adds the border */
+  border: 20px solid #1E1E2F;       /* adds the border */
   border-radius: 8px;
   padding: 20px;
   max-width: 600px;             
   margin: 20px auto;           
-  background-color: rgba(255,255,255,0.2); 
+  background-color: #1E1E2F; 
   text-align: left;            
 }
 
