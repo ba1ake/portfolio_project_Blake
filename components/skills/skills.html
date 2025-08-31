@@ -3,15 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="skills.css">
   <title>Blake Gabb Portfolio</title>
-  <link rel="stylesheet" href="home.css">
+  <style>
+    body {
+      text-align: center;
+    }
 
+    nav {
+      background-color: #006699;
+      padding: 15px;
+    }
 
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .title {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .skill-container {
+      border: 2px solid #006699;
+      padding: 20px;
+      display: inline-block;
+      margin: 50px auto;
+      text-align: center;
+      background-color: #006699;
+      border-radius: 8px;
+    }
+
+    .skill {
+      display: grid;
+      grid-template-columns: repeat(2, 200px);
+      grid-auto-rows: auto; 
+      gap: 20px;
+      justify-content: center; 
+    }
+
+    .skill div {
+      border: 2px solid white;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: left;
+    }
+
+    .skill h2 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+    }
+
+    .skill p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+  </style>
 </head>
 
 <body>
 
-  <!-- navbar copy paste #note remember to commet out page that you are on-->
   <nav>
     <a href="index.html">Home</a>
     <!--- <a href="skills.html">Skills</a> --->
@@ -19,14 +81,39 @@
     <a href="contact.html">Contact Me</a>
   </nav>
 
-  <div class="skills">
-  
+  <div class="title">
+    <h2>My Skills</h2>
+  </div>
 
-  <!-- footer copy paste -->
+  <div class="skill-container">
+    <div class="skill">
+
+      <div class="skill-python">
+        <h2>Python</h2>
+        <p>I have extensive experience using Python to program front-end systems, small programs, and Discord bots.</p>
+      </div>
+
+      <div class="skill-javascript">
+        <h2>JavaScript</h2>
+        <p>In my course I have started using JavaScript for programs and I am currently learning to integrate it with websites and HTML.</p>
+      </div>
+
+      <div class="skill-HTML_CSS">
+        <h2>HTML & CSS</h2>
+        <p>I am currently learning HTML and CSS to build this web portfolio.</p>
+      </div>
+
+      <div class="skill-leadership">
+        <h2>Leadership</h2>
+        <p>In previous roles, I have developed leadership and team management skills, enabling effective communication within a team.</p>
+      </div>
+
+    </div>
+  </div>
+
   <footer>
     <p>&copy; 2025 Blake Gabb</p>
   </footer>
 
 </body>
-
 </html>

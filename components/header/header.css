@@ -5,3 +5,13 @@
       justify-content: center;
       gap: 20px;
     }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
