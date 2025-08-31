@@ -50,7 +50,7 @@ body {
 
     .skill {
       display: grid;
-      grid-template-columns: repeat(2, 200px);
+      grid-template-columns: repeat(2, 250px);
       grid-auto-rows: auto; 
       gap: 20px;
       justify-content: center; 
@@ -74,6 +74,10 @@ body {
       margin: 0;
       font-size: 14px;
       line-height: 1.3;
+    }
+
+    .skill-blurb {
+      padding: 20px;
     }
 
 
