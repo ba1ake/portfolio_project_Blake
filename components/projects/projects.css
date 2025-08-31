@@ -8,28 +8,61 @@ body {
       min-height: 100vh;
       position: relative;
       overflow-x: hidden;
-      text-align: center;
-}
+    }
 
+    main {
+        flex: 1; 
+}
     nav {
       background-color: #006699; 
       padding: 15px;
       display: flex;
       justify-content: center;
       gap: 20px;
-}
+    }
 
     nav a {
       color: white;
       text-decoration: none;
       font-weight: bold;
-}
+    }
 
     nav a:hover {
       text-decoration: underline;
+    }
+
+    .project {
+    display: flex;              
+    align-items: flex-start;    
+    justify-content: center;    
+    gap: 40px;                  
+    margin: 50px auto;          
+    max-width: 900px;           
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid gray;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;           
 }
 
-/* put page spefic content here before footer */
+    .project-left {
+        flex: 1;                     
+}
+
+    .project-right {
+        flex: 1;                     
+        display: flex;               
+        justify-content: center;     
+}
+
+    .project-image img {
+        max-width: 300px; 
+        width: 100%;       
+        height: auto;      
+        border-radius: 12px;
+        border: 2px solid gray;
+}
+
     footer {
         position: fixed;    
         bottom: 0;          
