@@ -31,7 +31,6 @@ body {
 
 /* put page spefic content here before footer */
 
-
 input[type=text] {
   width: 50%;
   padding: 20px;
@@ -47,10 +46,10 @@ input[type=text] {
   border: 2px solid gray;       /* adds the border */
   border-radius: 8px;
   padding: 20px;
-  max-width: 600px;             /* limits the width so it doesn’t stretch too far */
-  margin: 20px auto;            /* centers it horizontally */
-  background-color: rgba(255,255,255,0.2); /* optional subtle background */
-  text-align: left;             /* aligns the text inside the box nicely */
+  max-width: 600px;             
+  margin: 20px auto;           
+  background-color: rgba(255,255,255,0.2); 
+  text-align: left;            
 }
 
 .contact {
