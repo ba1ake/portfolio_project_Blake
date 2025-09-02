@@ -1,36 +1,37 @@
 body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #121212; 
-      color: white;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      position: relative;
-      overflow-x: hidden;
-      text-align: center;
-    }
-
-    main {
-        flex: 1; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  text-align: center;
 }
-    nav {
-      padding: 15px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
 
-    nav a {
-      color: #00ADB5;
-      text-decoration: none;
-      font-weight: bold;
-    }
+main {
+  flex: 1; 
+}
 
-    nav a:hover {
-      color: #FF5722;
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
-    }
+nav a {
+  color: #00ADB5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FF5722;
+
+}
 
 /* put page spefic content here before footer */
 
@@ -54,6 +55,11 @@ input[type=text] {
   background-color: #1E1E2F; 
   text-align: left;            
 }
+.contact-form:hover {
+  background-color: #FF5722;
+  border-color: #FF5722;
+  transition: 1s;
+}
 
 .contact {
   padding-bottom: 40px;
@@ -61,15 +67,18 @@ input[type=text] {
 
 
 
+footer:hover {
+  background-color: #FF5722;
+  transition: 1s;
+}
 
-
-    footer {
-        position: fixed;    
-        bottom: 0;          
-        left: 0;            
-        width: 100%;        
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 15px;
+footer {
+  position: fixed;    
+  bottom: 0;          
+  left: 0;            
+  width: 100%;        
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }

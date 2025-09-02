@@ -1,78 +1,84 @@
 body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #121212; 
-      color: white;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      position: relative;
-      overflow-x: hidden;
-    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
 
-    nav {
-      padding: 15px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
+nav {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
-    nav a {
-      color: #00ADB5;
-      text-decoration: none;
-      font-weight: bold;
-    }
+nav a {
+  color: #00ADB5;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    nav a:hover {
-      color: #FF5722;
+nav a:hover {
+  color: #FF5722;
 
-    }
+}
 
-    body {
-      text-align: center;
-    }
+body {
+  text-align: center;
+}
 
-    .title {
-      text-align: center;
-      margin-top: 30px;
-      color: #FF5722;
-    }
+.title {
+    text-align: center;
+  margin-top: 30px;
+  color: #FF5722;
+}
 
-    .skill-container {
-      padding: 20px;
-      display: inline-block;
-      margin: 50px auto;
-      text-align: center;
-      border-radius: 8px;
-    }
+.skill-container {
+  padding: 20px;
+  display: inline-block;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 8px;
+}
 
-    .skill {
-      display: grid;
-      grid-template-columns: repeat(2, 250px);
-      grid-auto-rows: auto; 
-      gap: 20px;
-      justify-content: center; 
-    }
+.skill {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-auto-rows: auto; 
+  gap: 20px;
+  justify-content: center; 
+}
 
-    .skill div {
-      background: #1E1E2F;
-      border-radius: 8px;
-      padding: 10px;
-      box-sizing: border-box;
-      text-align: left;
-    }
+.skill div {
+  background: #1E1E2F;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+}
 
-    .skill div:hover {
-      background-color: #FF5722;
-    }
+.skill div:hover {
+  background-color: #FF5722;
+  transition: 1s;
+}
+
+footer:hover {
+  background-color: #FF5722;
+  transition: 1s;
+}
 
     footer {
-        position: fixed;    
-        bottom: 0;          
-        left: 0;            
-        width: 100%;        
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 15px;
+  position: fixed;    
+  bottom: 0;          
+  left: 0;            
+  width: 100%;        
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
